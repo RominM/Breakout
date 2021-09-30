@@ -6,6 +6,7 @@ export const createPaddle = () => {
    let posX = (canvas.width - padWid) / 2; // position on horizontal axe (abcisse)600
    let posY = (canvas.height - padHei) - 35; // position on horizontal axe (abcisse)600
 
+   
    const paddle = (() => {
       ctx.beginPath();
       ctx.rect(posX, posY, padWid, padHei);
