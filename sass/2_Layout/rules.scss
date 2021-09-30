@@ -1,0 +1,30 @@
+.bgRules {
+   position: relative;
+   width: 75%;
+   margin: auto;
+   text-align: center;
+   margin-top: 150px;
+   border: solid 2px $mainColor2;
+   border-radius: 5px;
+   padding: 25px;
+   background-color: $mainColor1;
+   button {
+      position: absolute;
+      top: 11%;
+      right: 2%;
+      width: auto;
+      background-color: $mainColor2;
+      img {
+         width: 25px;
+         cursor: pointer;
+      }
+   }
+   h2 {
+      font-size: 2em;
+      margin: 25px;
+   }
+   p {
+      font-size: .7em;
+      line-height: 25px;
+   }
+}

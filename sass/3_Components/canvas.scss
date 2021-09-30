@@ -1,0 +1,24 @@
+canvas {
+   border: solid 2px $mainColor2;
+   border-radius: 5px;
+   background-color: $mainColor1;
+   opacity: .8;
+   cursor: none;
+}
+
+.paddle {
+   position: absolute;
+   bottom: 2%;
+   width: 150px;
+   height: 10px;
+   background-color: $mainColor2;
+   z-index: 2;
+}
+
+.ball {
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: $mainColor2;
+   z-index: 2;
+}

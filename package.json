@@ -1,0 +1,32 @@
+{
+  "name": "breakout",
+  "version": "1.0.0",
+  "description": "Breakout game from pure js",
+  "main": "app.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1",
+    "eslint": "^7.31.0"
+  },
+  "scripts": {
+    "sass": "sass --watch ./sass/master.scss:./css/style.css --style compressed",
+    "prefix": "postcss ./css/style.css -u autoprefixer -o ./css/stylePrefix.css -w",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RominM/RominManogil_06_07062021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RominM/RominManogil_06_07062021/issues"
+  },
+  "browserslist": [
+    "last 30 version"
+  ]
+}

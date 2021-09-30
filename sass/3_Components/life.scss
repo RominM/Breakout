@@ -1,0 +1,13 @@
+.lifeDisplay {
+   display: flex;
+   width: 70px;
+   justify-content: space-around;
+   img {
+      display: none;
+      width: 30px;
+   }
+   .lifeCount {
+      margin-top: 4px;
+      font-size: 25px;
+   }
+}

@@ -1,0 +1,43 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background: url(../../Images/wallpaper1.jpg)no-repeat;
+   color: $mainColor2;
+   font-family: $RegGame;
+}
+
+main {
+   width: 95%;
+   margin: auto;
+   text-align: center;
+   h1 {
+      font-size: 2em;
+      margin: 50px;
+   }
+   #infoBtn {
+      position: absolute;
+      top: 5%;
+      right: 10%;
+      width: 35px;
+      background-color: transparent;
+      border-radius: 50%;
+      cursor: pointer;
+   }
+   #soundBtn {
+      position: absolute;
+      top: 5%;
+      left: 10%;
+      width: 35px;
+      padding: 2px;
+      background-color: $mainColor2;
+      border-radius: 50%;
+      cursor: pointer;
+      img {
+         width: 75%;
+         padding-top: 2px;
+      }
+   }
+}
