@@ -1,8 +1,9 @@
 export const tabLife = () => {
-   const ctx = document.getElementById('canvas').getContext('2d');
+   const gamerState = document.querySelector('.gamer-state');
 
-   const heartImg = new Image();
+   const heartImg = document.createElement('img');
    heartImg.src = '../Images/heart-regular.svg';
-   heartImg.alt = 'life';
-   ctx.drawImage(heartImg, 1100, 10);
+   heartImg.alt = 'heart';
+
+   gamerState.append(heartImg);
 }

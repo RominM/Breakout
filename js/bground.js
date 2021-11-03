@@ -2,10 +2,12 @@ export const bground = () => {
    const body = document.querySelector('body');
    const canvas = document.querySelector('canvas');
 
-   const main = document.createElement('main');
+   const header = document.querySelector('header');
+
+   const main = document.querySelector('main');
    main.hidden = false;
 
-   const h1 = document.createElement('h1');
+   const h1 = document.querySelector('h1');
    h1.innerHTML = 'BREAKOUT';
 
    const infoBtn = document.createElement('button');
@@ -33,11 +35,9 @@ export const bground = () => {
 
    infoBtn.append(infoImg);
 
-   main.append(h1);
+   header.append(h1);
+   header.append(soundBtn);
+   header.append(infoBtn);
+   header.append(audio);
    main.append(canvas);
-   main.append(soundBtn);
-   main.append(infoBtn);
-   main.append(audio);
-
-   body.append(main);
 }
