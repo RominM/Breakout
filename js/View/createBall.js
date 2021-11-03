@@ -1,16 +1,16 @@
 export const createBall = () => {
    const ctx = document.getElementById('canvas').getContext('2d');
    // CREATE BALL
-   let deltaV = -4; // speed
+   let deltaV = -6; // speed
    let ray = 10; // rayon
-   let dx = 1;
-   let dy = -1;
+   let dx = 1; // angle sur X
+   let dy = -1; // angle sur Y
    let posY = (canvas.height) - 50; // position on vertical axe (ordonnée)665
    let posX = (canvas.width) / 2; // position on horizontal axe (abcisse)600
-
-   const ball = () => {
-      requestAnimationFrame(ball); // recursivity 60x/sc
-      ctx.clearRect(0, 50, canvas.width, 605); // supp old ball
+   // mouvement of the ball
+   const ballMvt = () => {
+      requestAnimationFrame(ballMvt); // recursivity 60x/sc
+      ctx.clearRect(0, 0, canvas.width, 655); // supp old ball
 
       ctx.fillStyle = '#C3C3C3';
       ctx.beginPath();
@@ -18,7 +18,11 @@ export const createBall = () => {
       ctx.fill();
       posX += dx;
       posY += dy;
-      // bounce
+      
+      ballBounce();
+   };
+   // bounce
+   const ballBounce = () => {
       if (posY + dy > (canvas.height) || posY + dy < ray) {
          dy = -dy;
          deltaV = -deltaV;
@@ -30,7 +34,8 @@ export const createBall = () => {
          dy = -dy;
       }
       posY += deltaV;
-   };
-   // ball()
-   canvas.addEventListener('click', ball);
+   }
+
+   canvas.addEventListener('click', ballMvt);
 }
+
