@@ -1,5 +1,4 @@
-export const bground = () => {
-   const body = document.querySelector('body');
+export const createBody = () => {
    const canvas = document.querySelector('canvas');
 
    const header = document.querySelector('header');

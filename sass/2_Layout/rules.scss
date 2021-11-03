@@ -1,7 +1,7 @@
 .bgRules {
    position: relative;
    width: 75%;
-   height: 800px;
+   height: 700px;
    margin: auto;
    text-align: center;
    margin-top: 50px;
@@ -12,7 +12,7 @@
    overflow: auto;
    button {
       position: absolute;
-      top: 2.5%;
+      top: 4%;
       right: 2%;
       width: auto;
       background-color: $mainColor2;
@@ -23,10 +23,10 @@
    }
    h2 {
       font-size: 2em;
-      margin: 25px;
+      margin: 40px;
    }
    p {
-      font-size: .7em;
+      font-size: .8em;
       line-height: 25px;
       margin-bottom: 25px;
    }

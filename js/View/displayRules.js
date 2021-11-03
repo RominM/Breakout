@@ -1,4 +1,4 @@
-import { rules } from "./rules.js";
+import { rules } from "../rules.js";
 
 export const displayRules = () => {
    const infoBtn = document.querySelector('#infoBtn');

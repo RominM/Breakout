@@ -16,7 +16,7 @@ export const rules = () => {
 
    const p1 = document.createElement('p');
    p1.innerHTML = 
-   "Hi there! Move the paddle from left to right with keyboard to prevent the ball from falling below it. Be careful to keep the ball in the zone or you will lose a life ! br>\
+   "Hi there! Move the paddle from left to right with keyboard to prevent the ball from falling below it. Be careful to keep the ball in the zone or you will lose a life ! <br>\
    Break all the bricks and make a maximum of point to win and pass a higher level."
 
    const p2 = document.createElement('p');
