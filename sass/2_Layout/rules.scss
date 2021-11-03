@@ -1,16 +1,18 @@
 .bgRules {
    position: relative;
    width: 75%;
+   height: 800px;
    margin: auto;
    text-align: center;
-   margin-top: 150px;
+   margin-top: 50px;
    border: solid 2px $mainColor2;
    border-radius: 5px;
    padding: 25px;
    background-color: $mainColor1;
+   overflow: auto;
    button {
       position: absolute;
-      top: 11%;
+      top: 2.5%;
       right: 2%;
       width: auto;
       background-color: $mainColor2;
@@ -26,5 +28,12 @@
    p {
       font-size: .7em;
       line-height: 25px;
+      margin-bottom: 25px;
+   }
+   .p-bonus {
+      text-align: left;
+   }
+   .p-penalty {
+      @extend .p-bonus;
    }
 }
