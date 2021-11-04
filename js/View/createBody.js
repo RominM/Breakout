@@ -25,7 +25,7 @@ export const createBody = () => {
    soundOff.src = '../Images/volume-mute-solid.svg';
    soundOff.hidden = true;
    const audio = document.createElement('audio');
-   // audio.src = '../Sounds/periphery-alpha-intro-loop-for-ringtone-alarm.mp3';
+   // audio.src = '../../Sounds/alpha-periphery_introLoop.mp3';
    audio.autoplay = true;
    audio.loop = true;
 
