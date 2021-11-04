@@ -1,7 +1,5 @@
-import { createPaddle } from "./View/createPaddle.js";
-import { createBall } from "./View/createBall.js";
+import { createElements } from "./View/createElements.js";
 
 export const canvasCtx = () => {
-   createPaddle();
-   createBall();
+   createElements();
 }
