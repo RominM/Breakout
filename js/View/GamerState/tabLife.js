@@ -8,7 +8,7 @@ export const tabLife = () => {
    nmbLife.innerHTML = '3';
 
    const imgLife = document.createElement('img');
-   imgLife.src = '../Images/heart-regular.svg';
+   imgLife.src = '../../images/heart-regular.svg';
    imgLife.alt = 'heart';
 
    divLife.append(nmbLife, imgLife);

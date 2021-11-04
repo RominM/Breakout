@@ -13,19 +13,19 @@ export const createBody = () => {
    infoBtn.id = 'infoBtn';
    const infoImg = document.createElement('img');
    infoImg.classList.add('infoImg');
-   infoImg.src = '../Images/info-circle-solid.svg';
+   infoImg.src = '../../images/info-circle-solid.svg';
 
    const soundBtn = document.createElement('button');
    soundBtn.id = 'soundBtn';
    const soundOn = document.createElement('img');
    const soundOff = document.createElement('img');
    soundOn.classList.add('soundOn');
-   soundOn.src = '../Images/volume-up-solid.svg';
+   soundOn.src = '../../images/volume-up-solid.svg';
    soundOff.classList.add('soundOff');
-   soundOff.src = '../Images/volume-mute-solid.svg';
+   soundOff.src = '../../images/volume-mute-solid.svg';
    soundOff.hidden = true;
    const audio = document.createElement('audio');
-   // audio.src = '../../Sounds/alpha-periphery_introLoop.mp3';
+   audio.src = '../../sounds/alpha-periphery_introLoop.mp3';
    audio.autoplay = true;
    audio.loop = true;
 

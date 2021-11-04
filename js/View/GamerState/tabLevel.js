@@ -8,7 +8,7 @@ export const tabLevel = () => {
    nmbLevel.innerHTML = '1';
 
    const imgLevel = document.createElement('img');
-   imgLevel.src = '../Images/star-regular.svg';
+   imgLevel.src = '../../images/star-regular.svg';
    imgLevel.alt = 'star';
 
    divLevel.append(nmbLevel, imgLevel)

@@ -9,7 +9,7 @@ export const rules = () => {
    closeRulesBtn.id = 'closeRulesBtn';
    const crossImg = document.createElement('img');
    crossImg.classList.add('crossImg');
-   crossImg.src = '../Images/close.svg';
+   crossImg.src = '../../images/close.svg';
 
    const h2 = document.createElement('h2');
    h2.innerHTML = 'Game rules';
